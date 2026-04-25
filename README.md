@@ -2,7 +2,7 @@
 GDC API pipeline to build, filter and export RNA-seq cohorts with somatic mutation and clinical metadata.
 
 ## Overview
-This notebook queries the [GDC API](https://api.gdc.cancer.gov) to build, filter and download RNA-seq cohorts from any GDC-hosted project. It generates an annotated metadata file and a STAR raw count matrix, ready for downstream machine learning or differential expression analysis.
+This notebook queries the GDC API to build, filter and download RNA-seq cohorts from any GDC-hosted project. It generates an annotated metadata file and a STAR raw count matrix, ready for downstream machine learning or differential expression analysis.
 
 Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.cancer.gov) — not limited to TCGA.
 
