@@ -10,7 +10,16 @@ the GDC API, and what the output files are.
 - Python 3.???
 - See requirements.txt
 
-## Usage
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/youruser/gdc-rnaseq-cohort-builder.git
+   cd gdc-rnaseq-cohort-builder
+   ```
+   ```bash
+   conda env create -f environment.yml
+   conda activate your_env_name
+   ```
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `gdc_cohort_builder.ipynb`
