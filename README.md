@@ -1,14 +1,9 @@
 # gdc-rnaseq-cohort-builder
 GDC API pipeline to build, filter and export RNA-seq cohorts with somatic mutation and clinical metadata.
 
-## Overview
-Brief description of what the notebook does, 
-the GDC API, and what the output files are.
-????????
-
 ## Requirements
-- Python 3.???
-- See requirements.txt
+- Python 3.10
+- Anaconda or Miniconda
 
 ## Installation
 1. Clone the repository:
