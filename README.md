@@ -16,17 +16,38 @@ the GDC API, and what the output files are.
    git clone https://github.com/youruser/gdc-rnaseq-cohort-builder.git
    cd gdc-rnaseq-cohort-builder
    ```
+2. Create and activate the conda environment:
    ```bash
-   conda env create -f environment.yml
-   conda activate your_env_name
+   conda create -n gdc-cohort python=3.10
+   conda activate gdc-cohort
    ```
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open `gdc_cohort_builder.ipynb`
-4. Configure the parameters in Section 0
-5. Run sections 0–5 locally
-6. Copy `luad_metadata.csv` to the HPC via `scp`
-7. Run sections 6–7 on the HPC
+3. Install dependencies:
+   ```bash
+   pip install requests pandas jupyterlab
+   ```
+4. Launch Jupyter Lab:
+   ```bash
+   jupyter lab
+   ```
+5. Run the full pipeline:
+   - Open gdc_cohort_builder.ipynb and run section 0 locally.
+   - Proceed to Section 1 to configure your cohort.
+   - Run sections 1-5 locally.
+   - Sections 6-7 involve downloading and processing large RNA-seq count files. These sections are designed to run on a remote compute enrironment.
+  
+6.A) HPC
+- Transfer the cohort metadata file to the HPC and run in the apropriate path:
+   ```bash
+   scp cohort_metadata.csv user@hpc:/path/to/project/
+   ```
+- Set up the environment on the HPC
+   ```bash
+   conda create -n gdc-cohort python=3.10
+   conda activate gdc-cohort
+   pip install requests pandas jupyterlab
+   ```
+- Run Sections 6-7 on the cluster.
+   
 
 ## Configuration
 
