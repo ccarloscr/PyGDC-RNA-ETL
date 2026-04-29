@@ -22,7 +22,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 ---
 
 ## Pipeline Overview
-### [01_build_cohort.ipynb](/01_build_cohort.ipynb) ![Status: Active](https://img.shields.io/badge/status-active-success)
+### [01_cohort_construction.ipynb](/01_cohort_construction.ipynb) ![Status: Active](https://img.shields.io/badge/status-active-success)
 - **Function**: Query GDC API, filter cohort, annotate mutation & clinical labels, export metadata.
 - **Environment**: Local.
 - **Output**: [cohort_metadata.csv](/cohort_metadata.csv).
@@ -59,7 +59,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 
 ## Usage Guide
 #### Step 1 — Build Cohort (local)
-Launch Jupyter Lab and open [01_build_cohort.ipynb](/01_build_cohort.ipynb):
+Launch Jupyter Lab and open [01_cohort_construction.ipynb](/01_cohort_construction.ipynb):
 
 Configure your cohort in Section 1 (project ID, gene mutations, sample type, and any clinical filters) and run all cells.
 
@@ -89,7 +89,7 @@ Once downloads are complete, merge the files:
 ---
 
 ## Configuration Reference
-All parameters for the cohort construction are located in Section 1 of [01_build_cohort.ipynb](/01_build_cohort.ipynb):
+All parameters for the cohort construction are located in Section 1 of [01_cohort_construction.ipynb](/01_cohort_construction.ipynb):
 | GDC API Field | Description | Typical Values |
 | :--- | :--- | :--- |
 | `cases.samples.sample_type` | Sample type | Primary Tumor, Solid Tissue Normal, Recurrent Tumor |
@@ -100,7 +100,7 @@ All parameters for the cohort construction are located in Section 1 of [01_build
 | `cases.demographic.gender` | Sex at birth | male, female |
 | `cases.diagnoses.age_at_diagnosis` | Age at diagnosis (in days) | *integer* |
 
-> **Note on Clinical Stages**: The pipeline automatically expands general stages (Stages I-IV) into their clinical subtypes (IA, IB, etc.) using the STAGE_GROUPS dictionary defined in the Section 1 of [01_build_cohort.ipynb](/01_build_cohort.ipynb).
+> **Note on Clinical Stages**: The pipeline automatically expands general stages (Stages I-IV) into their clinical subtypes (IA, IB, etc.) using the STAGE_GROUPS dictionary defined in the Section 1 of [01_cohort_construction.ipynb](/01_cohort_construction.ipynb).
 ---
 
 ## Notes
