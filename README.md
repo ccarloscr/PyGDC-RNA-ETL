@@ -107,6 +107,7 @@ All parameters for the cohort construction are located in Section 1 of [01_cohor
 - **Access**: This pipeline only supports open-access data. Controlled-access files require authorization and are not supported.
 - **Privacy**: [cohort_metadata.csv](/Data/cohort_metadata.csv) may contain patient-level data. It is included in .gitignore to prevent accidental commits.
 - **API limits**: The GDC API limits requests to 10,000 records. Queries exceeding this will trigger a warning.
+- **Sample Data**: Sample output files are provided in [data/](data/). All data originates from the NCI Genomic Data Commons (GDC) and follows their Open Access Data Policy.
 ---
 
 ## License
