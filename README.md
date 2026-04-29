@@ -1,61 +1,66 @@
 # gdc-rnaseq-cohort-builder
-GDC API pipeline to build, filter and export RNA-seq cohorts with somatic mutation and clinical metadata — ready for downstream ML or differential expression analysis.
+![WIP](https://img.shields.io/badge/status-under%20development-orange)
+>**Note**: This repository is currently under development.
+
+GDC API pipeline to build, filter and export RNA-seq cohorts with somatic mutation and clinical metadata ready for downstream machine learning or differential expression analysis.
+
 Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.cancer.gov), not limited to TCGA.
 
-## Pipeline overview
-01_build_cohort.ipynb
-- Query GDC API, filter cohort, annotate mutation & clinical labels, export metadata
-- Run locally
-- Output: cohort_metadata.csv
+## Roadmap
+- [x] Script to query GDC API, filter cohort and export metadata.
+- [ ] Script to download STAR count files from [cohort_metadata.csv](/cohort_metadata.csv).
+- [ ] Script to merge the downloaded count files into a single matrix.
+- [ ] 
+---
 
-02_download_counts.py
-- Download STAR count files listed in cohort_metadata.csv
-- Run on HPC / Cloud
-- Output: raw .tsv count files
+## Pipeline Overview
+### [01_build_cohort.ipynb](/01_build_cohort.ipynb) ![Status: Active](https://img.shields.io/badge/status-active-success)
+- **Function**: Query GDC API, filter cohort, annotate mutation & clinical labels, export metadata.
+- **Environment**: Local.
+- **Output**: [cohort_metadata.csv](/cohort_metadata.csv).
 
-03_build_matrix.py
-- Merge individual count files into a single sample × gene matrix
-- Run on HPC / Cloud
-- Output: count_matrix.tsv
+### 02_download_counts.py ![WIP](https://img.shields.io/badge/status-work%20in%20progress-orange)
+- **Function**: Download STAR count files listed in [cohort_metadata.csv](/cohort_metadata.csv).
+- **Environment**: HPC / Cloud.
+- **Output**: raw .tsv count files.
 
-## Outputs
-- cohort_metadata.csv: one row per sample with case IDs, clinical variables, and mutation labels
-- count_matrix.tsv: raw STAR counts matrix (samples × genes)
+### 03_build_matrix.py ![WIP](https://img.shields.io/badge/status-work%20in%20progress-orange)
+- **Function**: Merge individual count files into a single sample × gene matrix.
+- **Environment**: HPC / Cloud.
+- **Output**: count_matrix.tsv.
 
 ## Requirements
 - Python 3.10
 - Anaconda or Miniconda
 
 ## Installation
-1. Clone the repository:
+#### 1. Clone the repository:
    ```bash
    git clone https://github.com/youruser/gdc-rnaseq-cohort-builder.git
    cd gdc-rnaseq-cohort-builder
    ```
-2. Create and activate the conda environment:
+#### 2. Set up the environment
    ```bash
-   conda create -n gdc-cohort python=3.10
+   conda create -n gdc-cohort python=3.10 -y
    conda activate gdc-cohort
-   ```
-3. Install dependencies:
-   ```bash
    pip install requests pandas jupyterlab
    ```
-## Usage
-Step 1 — Build cohort (local)
-Launch Jupyter Lab and open 01_build_cohort.ipynb:
-   ```bash
-   jupyter lab
-   ```
-Configure your cohort in Section 1: project ID, gene mutations, sample type, and any clinical filters. Run all cells. This produces cohort_metadata.csv.
 
-Step 2 — Download count files (HPC / Cloud)
-Transfer the metadata file to your remote environment and run the download script:
+## Usage Guide
+#### Step 1 — Build Cohort (local)
+Launch Jupyter Lab and open [01_build_cohort.ipynb](/01_build_cohort.ipynb):
+
+Configure your cohort in Section 1 (project ID, gene mutations, sample type, and any clinical filters) and run all cells.
+
+>**Result**: Generates [cohort_metadata.csv](/cohort_metadata.csv).
+
+#### Step 2 — Download Count Files (HPC / Cloud)
+Transfer the [cohort_metadata.csv](/cohort_metadata.csv) file to your remote environment and run the [02_download_counts.py](/02_download_counts.py) script:
    ```bash
    # Transfer metadata
    scp cohort_metadata.csv user@hpc:/path/to/project/
 
-   # Set up environment on remote (first time only)
+   # Set up environment on remote (if not created before)
    conda create -n gdc-cohort python=3.10
    conda activate gdc-cohort
    pip install requests pandas
@@ -64,18 +69,27 @@ Transfer the metadata file to your remote environment and run the download scrip
    python 02_download_counts.py
    ```
 
-Step 3 — Build count matrix (HPC / Cloud)
-Once all files are downloaded, build the merged count matrix:
+#### Step 3 — Build Matrix (HPC / Cloud)
+Once downloads are complete, merge the files:
    ```bash
    python 03_build_matrix.py
    ```
-This produces count_matrix.tsv (samples × genes) alongside the annotated cohort_metadata.csv.
+>**Result**: Generates [count_matrix.tsv](/count_matrix.tsv).
 
-## Configuration reference
-All parameters for 01_build_cohort.ipynb are set in Section 1:
-[TABLE HERE]
+## Configuration Reference
+All parameters for the cohort construction are located in the first cell of [01_build_cohort.ipynb](/01_build_cohort.ipynb):
+| GDC API Field | Description | Typical Values |
+| :--- | :--- | :--- |
+| `cases.samples.sample_type` | Sample type | Primary Tumor, Solid Tissue Normal, Recurrent Tumor |
+| `gene_mutation` (via `/ssm_occurrences`) | Somatic mutation in selected genes | - |
+| `cases.tobacco_smoking_status` | Smoking Status | <details><summary>*View all 6 options*</summary> <ul><li>Lifelong Non-Smoker</li><li>Current Smoker</li><li>Current Reformed Smoker for > 15 yrs</li><li>Current Reformed Smoker for < or = 15 yrs</li><li>Current Reformed Smoker, Duration Not Specified</li><li>Not Reported</li></details>|
+| `cases.diagnoses.ajcc_pathologic_stage` | Pathologic stage | Stage I, II, III, IV |
+| `cases.demographic.vital_status` | Vital status | Alive, Dead |
+| `cases.demographic.gender` | Sex at birth | male, female |
+| `cases.diagnoses.age_at_diagnosis` | Age at diagnosis (in days) | *integer* |
+
 
 ## Notes
-- The GDC API only exposes open-access data. Controlled-access files (e.g. WGS BAMs) require dbGaP authorization and are not supported by this pipeline.
-- cohort_metadata.csv may contain patient-level metadata. Do not commit it to version control — it is listed in .gitignore.
-- The GDC API returns a maximum of 10,000 records per request. A warning is printed if your query exceeds this limit.
+- **Access**: This pipeline only supports open-access data. Controlled-access files require authorization and are not supported.
+- **Privacy**: [cohort_metadata.csv](/cohort_metadata.csv) may contain patient-level data. It is included in .gitignore to prevent accidental commits.
+- **API limits**: The GDC API limits requests to 10,000 records. Queries exceeding this will trigger a warning.
