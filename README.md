@@ -17,7 +17,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 ---
 ## Roadmap
 - [x] Script to query GDC API, filter cohort and export metadata.
-- [ ] Script to download STAR count files from [cohort_metadata.csv](/Data/cohort_metadata.csv).
+- [ ] Script to download STAR count files from [cohort_metadata.csv](/Data/sample_metadata.csv).
 - [ ] Script to merge the downloaded count files into a single matrix.
 ---
 
@@ -25,10 +25,10 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 ### [01_cohort_construction.ipynb](/Pipeline/01_cohort_construction.ipynb) ![Status: Active](https://img.shields.io/badge/status-active-success)
 - **Function**: Query GDC API, filter cohort, annotate mutation & clinical labels, export metadata.
 - **Environment**: Local.
-- **Output**: [cohort_metadata.csv](/Data/cohort_metadata.csv).
+- **Output**: [cohort_metadata.csv](/Data/sample_metadata.csv).
 
 ### 02_download_counts.py ![WIP](https://img.shields.io/badge/status-work%20in%20progress-orange)
-- **Function**: Download STAR count files listed in [cohort_metadata.csv](/Data/cohort_metadata.csv).
+- **Function**: Download STAR count files listed in [cohort_metadata.csv](/Data/sample_metadata.csv).
 - **Environment**: HPC / Cloud.
 - **Output**: raw .tsv count files.
 
@@ -63,10 +63,10 @@ Launch Jupyter Lab and open [01_cohort_construction.ipynb](/Pipeline/01_cohort_c
 
 Configure your cohort in Section 1 (project ID, gene mutations, sample type, and any clinical filters) and run all cells.
 
->**Result**: Generates [cohort_metadata.csv](/Data/cohort_metadata.csv).
+>**Result**: Generates [cohort_metadata.csv](/Data/sample_metadata.csv).
 
 #### Step 2 — Download Count Files (HPC / Cloud)
-Transfer the [cohort_metadata.csv](/Data/cohort_metadata.csv) file to your remote environment and run the [02_download_counts.py](/Pipeline/02_download_counts.py) script:
+Transfer the [cohort_metadata.csv](/Data/sample_metadata.csv) file to your remote environment and run the [02_download_counts.py](/Pipeline/02_download_counts.py) script:
    ```bash
    # Transfer metadata
    scp cohort_metadata.csv user@hpc:/path/to/project/
@@ -105,7 +105,7 @@ All parameters for the cohort construction are located in Section 1 of [01_cohor
 
 ## Notes
 - **Access**: This pipeline only supports open-access data. Controlled-access files require authorization and are not supported.
-- **Privacy**: [cohort_metadata.csv](/Data/cohort_metadata.csv) may contain patient-level data. It is included in .gitignore to prevent accidental commits.
+- **Privacy**: [cohort_metadata.csv](/Data/sample_metadata.csv) may contain patient-level data. It is included in .gitignore to prevent accidental commits.
 - **API limits**: The GDC API limits requests to 10,000 records. Queries exceeding this will trigger a warning.
 - **Sample Data**: Sample output files are provided in [data/](data/). All data originates from the NCI Genomic Data Commons (GDC) and follows their Open Access Data Policy.
 ---
