@@ -3,7 +3,7 @@
 *.tsv
 
 # Exception for sample output files
-!Data/cohort_metadata_sample.csv
+!Data/sample_metadata.csv
 
 # Temporary files
 .ipynb_checkpoints/
