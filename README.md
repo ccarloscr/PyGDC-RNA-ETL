@@ -4,7 +4,7 @@
 
 **PyGDC-RNA-ETL** is a robust pipeline designed to automate the extraction, transformation, and integration of genomic data from the [GDC Data Portal](https://portal.gdc.cancer.gov).
 
-The toolkit bridges the gap between raw GDC API responses and analysis-ready datasets by automated coupling RNA-seq expression levels, somatic mutation calls, and clinical metadata into a unified format optimized for Machine Learning and Differential Expression workflows.
+The toolkit bridges the gap between raw GDC API responses and analysis-ready datasets by coupling RNA-seq expression levels, somatic mutation calls, and clinical metadata into a unified format optimized for Machine Learning and Differential Expression workflows.
 
 Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.cancer.gov), not limited to TCGA.
 
@@ -46,7 +46,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 ## Installation
 #### 1. Clone the repository:
    ```bash
-   git clone https://github.com/youruser/PyGDC-RNA-ETL.git
+   git clone https://github.com/ccarloscr/PyGDC-RNA-ETL.git
    cd PyGDC-RNA-ETL
    ```
 #### 2. Set up the environment
