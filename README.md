@@ -101,9 +101,13 @@ All parameters for the cohort construction are located in Section 1 of [01_build
 | `cases.diagnoses.age_at_diagnosis` | Age at diagnosis (in days) | *integer* |
 
 > **Note on Clinical Stages**: The pipeline automatically expands general stages (Stages I-IV) into their clinical subtypes (IA, IB, etc.) using the STAGE_GROUPS dictionary defined in the Section 1 of [01_build_cohort.ipynb](/01_build_cohort.ipynb).
-
+---
 
 ## Notes
 - **Access**: This pipeline only supports open-access data. Controlled-access files require authorization and are not supported.
 - **Privacy**: [cohort_metadata.csv](/cohort_metadata.csv) may contain patient-level data. It is included in .gitignore to prevent accidental commits.
 - **API limits**: The GDC API limits requests to 10,000 records. Queries exceeding this will trigger a warning.
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
