@@ -1,0 +1,16 @@
+# Outputs
+*.csv
+*.tsv
+
+# Exception for sample output files
+!Data/cohort_metadata_sample.csv
+
+# Temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+.DS_Store
+Thumbs.db
