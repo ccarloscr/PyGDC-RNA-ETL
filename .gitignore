@@ -1,6 +1,8 @@
 # Outputs
 *.csv
 *.tsv
+*.parquet
+*.gz
 
 # Exception for sample output files
 !Data/sample_metadata.csv
