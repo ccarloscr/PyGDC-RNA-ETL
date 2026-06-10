@@ -1,5 +1,9 @@
 # PyGDC-RNA-ETL
 
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![Data Source](https://img.shields.io/badge/Data-NCI%20GDC-0066cc?logo=data:image/svg+xml;base64,...) 
+![Open Access](https://img.shields.io/badge/GDC%20Access-Open--Access%20Only-brightgreen)
+
 **PyGDC-RNA-ETL** is a robust pipeline designed to automate the extraction, transformation, and integration of genomic data from the [GDC Data Portal](https://portal.gdc.cancer.gov).
 
 The toolkit bridges the gap between raw GDC API responses and analysis-ready datasets by coupling RNA-seq expression levels, somatic mutation calls, and clinical metadata into a unified format optimized for Machine Learning and Differential Expression workflows.
@@ -31,11 +35,16 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 - **Function**: Merge individual count files into a single sample × gene matrix containing all RNA-seq raw counts.
 - **Environment**: Local.
 - **Output**: [sample_labels.csv](/Data/sample_labels.csv) and [sample_counts_matrix.parquet](/Data/sample_counts_matrix.parquet)
+
+>**Note:** Pass `--save-csv` in the CLI when running `03_build_count_matrix.py` to also export a compressed `counts_matrix.csv.gz` when downstream tools do not support parquet.
+
 ---
 
 ## Requirements
 - Python 3.10
 - Anaconda or Miniconda
+- See `requirements.txt` for Python dependencies
+
 ---
 
 ## Installation
@@ -48,7 +57,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
    ```bash
    conda create -n gdc-cohort python=3.10 -y
    conda activate gdc-cohort
-   pip install requests pandas jupyterlab pyarrow
+   pip install -r requirements.txt
    ```
 ---
 
