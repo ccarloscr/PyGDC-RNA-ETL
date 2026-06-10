@@ -1,6 +1,4 @@
 # PyGDC-RNA-ETL
-![WIP](https://img.shields.io/badge/status-under%20development-orange)
->**Note**: This repository is currently under development.
 
 **PyGDC-RNA-ETL** is a robust pipeline designed to automate the extraction, transformation, and integration of genomic data from the [GDC Data Portal](https://portal.gdc.cancer.gov).
 
