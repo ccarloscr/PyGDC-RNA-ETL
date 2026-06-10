@@ -62,11 +62,6 @@ The total number of samples found, a cohort summary and a cohort composition plo
 #### Step 2 — Download Count Files
 It is recommended to run this step in your remote environment. Transfer [cohort_metadata.csv](/Data/sample_metadata.csv) and [02_download_counts.py](/scripts/02_download_counts.py) into the same remote directory and run:
    ```bash
-   # Set up the conda env in your remote environment (if not set previously):
-   conda create -n gdc-cohort python=3.10 -y
-   conda activate gdc-cohort
-   pip install requests pandas jupyterlab pyarrow
-
    # Activate the environment
    conda activate gdc-cohort
 
