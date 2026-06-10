@@ -29,13 +29,14 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 
 ### 02_download_counts.py ![WIP](https://img.shields.io/badge/status-work%20in%20progress-orange)
 - **Function**: Download STAR count files listed in [cohort_metadata.csv](/Data/sample_metadata.csv).
-- **Environment**: HPC / Cloud.
+- **Parallelization**: By default uses a 50-file batch size for API requests and 8 parallel download threads. Can be overwritten in CLI using `--batch-size` and `--workers`, respectively.
+- **Environment**: HPC / Cloud for convenience and reliability as it may take a while if the number of files to download is high, speed is not dependant on computing power.
 - **Output**: raw .tsv count files.
 
 ### 03_build_matrix.py ![WIP](https://img.shields.io/badge/status-work%20in%20progress-orange)
 - **Function**: Merge individual count files into a single sample × gene matrix.
-- **Environment**: HPC / Cloud.
-- **Output**: count_matrix.tsv.
+- **Environment**: Local.
+- **Output**: [sample_labels.csv](/Data/sample_labels.csv) and [sample_counts_matrix.parquet](/Data/sample_counts_matrix.parquet)
 ---
 
 ## Requirements
@@ -74,7 +75,7 @@ Transfer the [cohort_metadata.csv](/Data/sample_metadata.csv) file to your remot
    # Set up environment on remote (if not created before)
    conda create -n gdc-cohort python=3.10
    conda activate gdc-cohort
-   pip install requests pandas
+   pip install requests pandas pyarrow
 
    # Run download
    python 02_download_counts.py
