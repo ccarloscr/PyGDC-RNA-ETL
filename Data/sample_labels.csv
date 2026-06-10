@@ -1,0 +1,518 @@
+,mutated_any,mut_EGFR,mut_KRAS,tobacco_smoking,stage,vital_status,gender
+TCGA-44-7661,True,False,True,Current Reformed Smoker for > 15 yrs,,Dead,female
+TCGA-55-6979,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,female
+TCGA-55-8203,True,False,True,Current Smoker,Stage IA,Alive,female
+TCGA-NJ-A55R,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-78-8640,False,False,False,Current Smoker,Stage IIA,Alive,male
+TCGA-55-6983,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,male
+TCGA-73-7498,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-MP-A4SY,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-69-7974,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,female
+TCGA-49-AAR4,False,False,False,Current Smoker,Stage IIIA,Dead,male
+TCGA-75-6205,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-38-4630,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-35-4123,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-78-7167,True,False,True,Current Smoker,,Dead,male
+TCGA-97-8552,True,True,False,Lifelong Non-Smoker,Stage I,Alive,female
+TCGA-44-6147,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-7914,True,False,True,Current Smoker,Stage IIA,Dead,female
+TCGA-55-7724,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-55-6978,False,False,False,Lifelong Non-Smoker,,Dead,male
+TCGA-86-7953,True,False,True,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-49-4507,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-55-A493,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-44-3918,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-75-5147,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-78-7143,False,False,False,Lifelong Non-Smoker,Stage IB,Dead,female
+TCGA-55-7284,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIB,Dead,male
+TCGA-91-A4BD,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Alive,male
+TCGA-55-7816,False,False,False,Lifelong Non-Smoker,Stage IV,Dead,female
+TCGA-62-8397,True,True,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-50-6594,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-55-8089,False,False,False,Current Smoker,Stage IA,Dead,male
+TCGA-69-7979,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-49-AAR9,False,False,False,Current Smoker,Stage IIB,Dead,male
+TCGA-86-8674,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,male
+TCGA-50-8457,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-86-8668,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-55-A48X,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-67-3774,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-49-6745,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-49-AAR0,False,False,False,Current Smoker,,Alive,male
+TCGA-05-4415,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-55-8508,True,False,True,Current Smoker,Stage IIA,Alive,female
+TCGA-44-3917,True,False,True,Current Smoker,Stage IB,Alive,female
+TCGA-05-4433,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-78-8655,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-97-8175,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-49-AARQ,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage I,Alive,female
+TCGA-64-1677,False,False,False,Current Smoker,,Dead,female
+TCGA-69-7761,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-49-4501,True,True,False,Lifelong Non-Smoker,,Dead,female
+TCGA-MP-A4T4,True,False,True,Current Smoker,Stage IIB,Dead,female
+TCGA-64-5778,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-73-4676,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Dead,male
+TCGA-50-5045,False,False,False,Not Reported,,Dead,female
+TCGA-78-7162,False,False,False,Current Smoker,,Dead,male
+TCGA-97-8547,True,True,False,Lifelong Non-Smoker,Stage IIIA,Alive,female
+TCGA-L9-A443,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-78-7166,True,False,True,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-49-4512,False,False,False,Lifelong Non-Smoker,Stage IIIA,Dead,female
+TCGA-55-8205,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-80-5608,True,False,True,Current Smoker,Stage IA,Alive,female
+TCGA-05-4417,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-50-5932,True,False,True,Not Reported,Stage IA,Dead,male
+TCGA-44-2662,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-55-6981,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,female
+TCGA-49-AAR2,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-44-2668,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,male
+TCGA-91-7771,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,male
+TCGA-NJ-A4YP,True,False,True,"Current Reformed Smoker, Duration Not Specified",Stage IB,Alive,male
+TCGA-NJ-A55A,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-44-6774,False,False,False,Current Smoker,Stage IIIA,Alive,female
+TCGA-78-7163,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-49-AARN,False,False,False,"Current Reformed Smoker, Duration Not Specified",,Dead,female
+TCGA-97-7546,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-A490,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIA,Dead,male
+TCGA-78-7539,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-73-A9RS,False,False,False,Current Smoker,Stage IIB,Dead,male
+TCGA-69-7765,True,True,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-50-5941,True,False,True,Current Smoker,Stage IIIA,Alive,female
+TCGA-97-8179,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-62-A470,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-75-7031,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-05-4384,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-91-6848,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,male
+TCGA-62-A46S,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,male
+TCGA-44-2657,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-53-7624,False,False,False,Current Smoker,,Dead,female
+TCGA-86-8278,False,False,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-75-6206,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-53-7626,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Dead,female
+TCGA-69-7978,True,False,True,Current Smoker,Stage IIB,Alive,male
+TCGA-MP-A4TJ,True,False,True,Current Smoker,Stage IA,Dead,female
+TCGA-50-6593,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-62-A472,False,False,False,Current Smoker,,Alive,male
+TCGA-05-4250,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-NJ-A7XG,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,male
+TCGA-44-A4SS,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-55-5899,False,False,False,Current Smoker,,Alive,male
+TCGA-86-8673,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-50-5044,False,False,False,Not Reported,Stage IIIB,Dead,female
+TCGA-86-6851,False,False,False,Current Smoker,Stage IIA,Alive,female
+TCGA-05-4389,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-97-8171,True,True,False,Current Smoker,Stage IV,Alive,male
+TCGA-73-4677,True,False,True,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-86-A4D0,False,False,False,Current Smoker,Stage IIA,Dead,male
+TCGA-93-8067,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-44-3398,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-86-8075,True,True,False,Lifelong Non-Smoker,Stage IB,Dead,female
+TCGA-MN-A4N4,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-49-AARR,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-55-6987,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-MN-A4N1,False,False,False,Current Smoker,Stage II,Alive,male
+TCGA-05-4390,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-64-1681,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Dead,female
+TCGA-55-A57B,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-93-7348,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-35-3615,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,male
+TCGA-50-5942,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-95-8039,False,False,False,Lifelong Non-Smoker,Stage IA,Alive,male
+TCGA-64-5775,True,False,True,Current Smoker,Stage IIIA,Dead,male
+TCGA-67-3770,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-86-A4JF,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-95-7948,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-86-8359,True,False,True,Current Smoker,Stage IIIA,Dead,male
+TCGA-55-8614,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-99-8032,True,False,True,Current Smoker,Stage IA,Alive,male
+TCGA-44-3919,False,False,False,Lifelong Non-Smoker,Stage IA,Dead,female
+TCGA-49-4510,True,False,True,Current Smoker,Stage IIB,Dead,female
+TCGA-35-4122,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-50-6590,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-55-7281,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-49-6743,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,female
+TCGA-73-4658,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Dead,female
+TCGA-91-6836,True,False,True,Current Smoker,,Alive,female
+TCGA-55-6712,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Dead,male
+TCGA-73-4659,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,male
+TCGA-95-7567,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,male
+TCGA-75-7027,True,False,True,Current Smoker,Stage IB,Alive,male
+TCGA-86-8279,False,False,False,Lifelong Non-Smoker,Stage IIA,Alive,male
+TCGA-05-4244,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Alive,male
+TCGA-L4-A4E6,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-62-A46V,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-MP-A4T7,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Dead,female
+TCGA-78-7161,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,female
+TCGA-55-8096,True,True,False,Current Smoker,Stage IB,Dead,female
+TCGA-44-7672,True,False,True,Current Smoker,Stage IA,Alive,female
+TCGA-J2-A4AG,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-49-6761,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-55-6642,True,False,True,Current Smoker,Stage IB,Alive,male
+TCGA-55-8620,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IV,Dead,male
+TCGA-78-8648,False,False,False,Current Smoker,Stage IIB,Dead,female
+TCGA-49-4514,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-44-6779,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-64-1679,False,False,False,Current Smoker,Stage IIIA,Alive,female
+TCGA-38-4629,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,male
+TCGA-55-6985,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-49-4494,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,male
+TCGA-55-7728,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-55-8207,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-49-6742,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-55-7574,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-50-5936,False,False,False,Not Reported,,Dead,male
+TCGA-05-4396,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIB,Dead,male
+TCGA-50-5939,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Dead,male
+TCGA-35-5375,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,male
+TCGA-91-6835,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-A494,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-50-6673,True,True,False,Lifelong Non-Smoker,Stage I,Dead,female
+TCGA-91-A4BC,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,male
+TCGA-55-8302,True,False,True,Current Smoker,Stage IB,Alive,male
+TCGA-55-6543,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-44-5645,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-8510,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-55-6982,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-55-8514,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-67-3773,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-NJ-A4YF,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-6980,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,male
+TCGA-73-7499,False,False,False,Lifelong Non-Smoker,Stage IB,Dead,female
+TCGA-55-7903,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-78-7145,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Dead,female
+TCGA-86-8669,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-67-3772,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-44-A47B,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-93-A4JO,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,male
+TCGA-62-A46R,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-97-8176,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,male
+TCGA-55-7815,True,False,True,Lifelong Non-Smoker,,Alive,male
+TCGA-86-7711,False,False,False,Current Smoker,Stage IIA,Dead,male
+TCGA-97-7553,False,False,False,Current Smoker,Stage IA,Alive,female
+TCGA-MP-A4TE,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-NJ-A4YQ,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-55-7576,True,False,True,Current Smoker,Stage IB,Alive,male
+TCGA-49-6767,False,False,False,Current Smoker,Stage IIB,Alive,female
+TCGA-62-A46U,True,True,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-05-4430,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-91-6831,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-50-5930,False,False,False,Not Reported,Stage IIIA,Dead,male
+TCGA-NJ-A4YG,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-05-4395,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIB,Dead,male
+TCGA-62-8395,False,False,False,Lifelong Non-Smoker,,Alive,female
+TCGA-75-7030,False,False,False,Lifelong Non-Smoker,Stage IIB,Alive,male
+TCGA-86-8280,True,True,False,Lifelong Non-Smoker,Stage IIA,Alive,female
+TCGA-44-6777,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-97-7552,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-86-8055,True,True,False,Current Smoker,Stage IIA,Dead,male
+TCGA-95-7043,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-86-8076,True,False,True,Lifelong Non-Smoker,Stage IA,Alive,male
+TCGA-78-7158,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIB,Dead,female
+TCGA-86-8054,True,False,True,Current Smoker,Stage IIB,Alive,male
+TCGA-78-7154,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,male
+TCGA-38-4627,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Dead,female
+TCGA-80-5607,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIB,Alive,female
+TCGA-55-7995,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-55-1596,False,False,False,Current Smoker,Stage IIB,Alive,male
+TCGA-05-4398,False,False,False,Current Smoker,Stage IIIB,Alive,female
+TCGA-86-7954,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-44-3396,False,False,False,Current Smoker,Stage IIIA,Alive,female
+TCGA-64-1680,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IV,Alive,male
+TCGA-44-7660,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-69-A59K,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,female
+TCGA-97-A4M5,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-38-4628,True,True,False,Lifelong Non-Smoker,,Dead,female
+TCGA-44-2661,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-75-5146,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-75-6211,False,False,False,Current Smoker,Stage IB,Dead,female
+TCGA-05-4426,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-MP-A4TD,True,False,True,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-55-8091,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-55-7570,True,True,False,Current Smoker,Stage IA,Alive,male
+TCGA-44-2665,False,False,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-75-6214,False,False,False,Current Smoker,,Dead,female
+TCGA-64-5779,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,male
+TCGA-MP-A4TK,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-69-7973,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-91-6849,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,female
+TCGA-44-6145,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-78-8662,False,False,False,Current Smoker,Stage IB,Dead,female
+TCGA-50-5051,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-67-6216,False,False,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-97-8177,True,True,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-MP-A4TI,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Dead,male
+TCGA-44-A479,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-69-7980,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage I,Alive,female
+TCGA-53-7813,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIB,Alive,female
+TCGA-55-7726,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-95-A4VK,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,female
+TCGA-64-1676,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-78-7159,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-MP-A4TA,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-75-6212,True,True,False,Lifelong Non-Smoker,,Dead,female
+TCGA-62-A471,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,male
+TCGA-86-6562,False,False,False,Lifelong Non-Smoker,Stage IIA,Dead,male
+TCGA-83-5908,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-L9-A8F4,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-55-8616,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-99-8025,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,female
+TCGA-75-7025,True,True,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-55-8511,False,False,False,Current Smoker,,Alive,female
+TCGA-86-8074,True,True,False,Current Smoker,Stage IIA,Alive,female
+TCGA-55-7727,False,False,False,Current Smoker,Stage IIIA,Alive,male
+TCGA-99-7458,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,female
+TCGA-38-4626,False,False,False,Current Smoker,,Alive,female
+TCGA-44-6778,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-55-7913,False,False,False,Current Smoker,,Dead,female
+TCGA-78-7535,False,False,False,Current Smoker,,Dead,male
+TCGA-50-5944,True,True,False,Not Reported,Stage IA,Alive,female
+TCGA-67-3771,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-55-8619,False,False,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-55-A48Z,True,True,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-53-A4EZ,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Alive,male
+TCGA-55-1595,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-75-5126,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,female
+TCGA-86-7701,False,False,False,Lifelong Non-Smoker,Stage IV,Alive,male
+TCGA-44-2666,False,False,False,Current Smoker,Stage IB,Dead,male
+TCGA-55-8087,True,True,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-64-5815,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIB,Alive,male
+TCGA-44-6148,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-05-4397,False,False,False,Current Smoker,Stage IIB,Dead,male
+TCGA-86-8281,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-62-A46Y,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-49-6744,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,female
+TCGA-55-8206,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,male
+TCGA-69-8255,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-86-8672,False,False,False,Lifelong Non-Smoker,Stage IIB,Dead,male
+TCGA-05-5429,False,False,False,Lifelong Non-Smoker,Stage IIIA,Dead,male
+TCGA-97-A4M1,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-71-8520,True,True,False,Lifelong Non-Smoker,Stage IB,Dead,female
+TCGA-69-8254,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-69-8253,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,female
+TCGA-62-A46O,False,False,False,Current Smoker,,Dead,female
+TCGA-J2-8194,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-55-7994,False,False,False,Current Smoker,Stage IIB,Alive,male
+TCGA-55-8208,False,False,False,Current Smoker,Stage IA,Alive,female
+TCGA-44-5644,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-86-7713,True,False,True,Lifelong Non-Smoker,Stage IIA,Alive,male
+TCGA-97-8172,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-05-5428,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Alive,male
+TCGA-97-A4M6,True,True,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-97-8174,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Dead,male
+TCGA-S2-AA1A,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-38-4631,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-J2-A4AE,False,False,False,Lifelong Non-Smoker,Stage IA,Alive,female
+TCGA-05-4402,True,True,False,Lifelong Non-Smoker,Stage IV,Dead,female
+TCGA-78-7537,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Dead,male
+TCGA-50-5931,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-05-5715,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-73-4666,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IV,Alive,female
+TCGA-55-8505,False,False,False,Lifelong Non-Smoker,Stage IIIA,Alive,male
+TCGA-05-4405,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-05-4432,False,False,False,Current Smoker,Stage IIB,Alive,male
+TCGA-91-6847,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-55-6984,True,False,True,Not Reported,Stage IIB,Dead,female
+TCGA-78-7633,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,male
+TCGA-J2-8192,True,True,False,Lifelong Non-Smoker,Stage IIA,Alive,female
+TCGA-38-4632,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-78-7220,False,False,False,Current Smoker,,Dead,female
+TCGA-49-AARE,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-55-8512,True,False,True,Current Smoker,Stage IV,Dead,male
+TCGA-O1-A52J,True,True,False,Current Reformed Smoker for > 15 yrs,,Dead,female
+TCGA-55-A48Y,False,False,False,Current Smoker,Stage IIA,Alive,male
+TCGA-93-A4JN,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IV,Alive,male
+TCGA-75-6207,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,male
+TCGA-55-8097,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-05-4410,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-78-7540,True,False,True,Lifelong Non-Smoker,Stage IB,Dead,female
+TCGA-05-4249,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-64-5781,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-44-4112,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Dead,female
+TCGA-50-5946,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-55-8299,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,female
+TCGA-44-A4SU,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,female
+TCGA-69-7764,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-L9-A444,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-62-8394,True,True,False,Lifelong Non-Smoker,Stage IIIB,Dead,female
+TCGA-78-7160,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Dead,male
+TCGA-55-8090,True,False,True,Current Smoker,,Dead,male
+TCGA-MP-A5C7,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-44-A47A,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-73-4675,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,male
+TCGA-95-8494,False,False,False,"Current Reformed Smoker, Duration Not Specified",Stage IIA,Alive,male
+TCGA-97-7941,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-MP-A4TH,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-55-6970,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-38-6178,True,True,False,Lifelong Non-Smoker,,Alive,female
+TCGA-55-7725,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-93-7347,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-91-8496,True,True,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-4B-A93V,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,female
+TCGA-50-6592,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,female
+TCGA-05-4424,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,male
+TCGA-44-7671,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-55-7227,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,male
+TCGA-67-4679,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-44-8117,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-75-6203,False,False,False,Lifelong Non-Smoker,Stage IIIA,Alive,female
+TCGA-97-7938,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Dead,female
+TCGA-05-4425,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IV,Alive,female
+TCGA-50-5055,False,False,False,Not Reported,Stage IIA,Dead,female
+TCGA-44-6775,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-95-A4VN,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-05-4245,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-44-7669,False,False,False,Current Smoker,,Dead,male
+TCGA-44-7659,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-78-7147,True,True,False,Current Smoker,Stage IIB,Dead,female
+TCGA-05-4434,False,False,False,Current Smoker,,Dead,female
+TCGA-55-8506,True,True,False,Current Smoker,Stage IIB,Alive,female
+TCGA-05-4422,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-55-8204,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-50-5933,True,True,False,Not Reported,Stage IIIB,Dead,male
+TCGA-55-1594,False,False,False,Current Smoker,Stage IIIA,Alive,male
+TCGA-78-7146,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,female
+TCGA-78-7542,False,False,False,Current Smoker,Stage IB,Dead,male
+TCGA-MP-A4TC,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-73-4662,True,False,True,Current Reformed Smoker for > 15 yrs,Stage I,Alive,female
+TCGA-97-A4M2,False,False,False,Current Smoker,,Alive,male
+TCGA-55-8621,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-78-7152,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-05-5420,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-99-8033,False,False,False,Lifelong Non-Smoker,Stage IV,Dead,female
+TCGA-78-7148,True,False,True,Current Smoker,Stage IIB,Dead,male
+TCGA-MP-A4T8,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,male
+TCGA-50-5072,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-55-6986,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-97-A4M3,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-93-A4JP,True,True,False,Lifelong Non-Smoker,Stage IV,Alive,male
+TCGA-55-A492,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Alive,female
+TCGA-55-7911,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-44-2659,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,female
+TCGA-NJ-A55O,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,female
+TCGA-62-8399,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Alive,male
+TCGA-86-8056,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,female
+TCGA-55-A4DF,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Dead,male
+TCGA-55-A4DG,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-38-4625,False,False,False,Current Smoker,Stage IB,Alive,female
+TCGA-44-5643,False,False,False,Current Smoker,Stage IIIA,Alive,male
+TCGA-67-6215,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-44-2655,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-05-5423,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIB,Alive,male
+TCGA-MP-A4TF,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Dead,female
+TCGA-62-8402,True,True,False,Lifelong Non-Smoker,Stage IIIA,Dead,female
+TCGA-55-6975,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,male
+TCGA-99-8028,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-97-7937,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-MN-A4N5,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-71-6725,True,True,False,Current Smoker,,Alive,female
+TCGA-55-1592,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,male
+TCGA-50-7109,False,False,False,Current Smoker,Stage IA,Dead,male
+TCGA-86-8073,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-78-7153,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-49-AARO,True,False,True,Current Smoker,Stage IA,Alive,female
+TCGA-50-8460,False,False,False,Unknown,Stage IA,Alive,male
+TCGA-05-4418,True,False,True,Current Smoker,,Dead,male
+TCGA-50-8459,True,False,True,Current Smoker,Stage IIB,Alive,male
+TCGA-49-4490,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,female
+TCGA-50-5935,True,True,False,Not Reported,,Dead,female
+TCGA-86-A456,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-95-A4VP,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Alive,female
+TCGA-55-7907,True,False,True,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-MP-A4T6,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,female
+TCGA-44-2656,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-44-A47G,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-91-6828,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-86-7955,False,False,False,Lifelong Non-Smoker,,Alive,male
+TCGA-69-8453,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIB,Alive,male
+TCGA-78-7149,False,False,False,Current Smoker,Stage IIIB,Alive,male
+TCGA-69-7763,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-91-6840,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-05-4420,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-44-8119,False,False,False,Current Smoker,Stage IIB,Alive,male
+TCGA-86-A4P8,False,False,False,Lifelong Non-Smoker,Stage IIIA,Alive,female
+TCGA-86-8585,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,male
+TCGA-44-7670,False,False,False,Current Smoker,,Alive,female
+TCGA-50-5066,True,True,False,Lifelong Non-Smoker,,Alive,male
+TCGA-64-1678,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-80-5611,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-MP-A4SV,False,False,False,Current Smoker,Stage IB,Dead,male
+TCGA-69-7760,True,True,False,Lifelong Non-Smoker,Stage IIB,Alive,male
+TCGA-50-6591,True,True,False,Lifelong Non-Smoker,Stage IV,Dead,female
+TCGA-44-6146,True,False,True,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-86-A4P7,False,False,False,Lifelong Non-Smoker,Stage IB,Alive,female
+TCGA-49-4505,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,female
+TCGA-L9-A7SV,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Alive,male
+TCGA-91-8497,False,False,False,Lifelong Non-Smoker,Stage IA,Dead,female
+TCGA-86-7714,False,False,False,Current Smoker,Stage IIIA,Dead,female
+TCGA-49-4486,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-97-A4LX,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-86-8358,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-44-6776,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,female
+TCGA-95-7562,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIA,Dead,male
+TCGA-62-8398,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIIA,Dead,male
+TCGA-78-7150,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,male
+TCGA-73-4668,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,female
+TCGA-38-A44F,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-78-7155,True,True,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-L4-A4E5,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage I,Alive,female
+TCGA-05-4427,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Alive,female
+TCGA-55-8301,False,False,False,Current Smoker,,Alive,male
+TCGA-91-8499,False,False,False,Current Smoker,Stage IA,Alive,female
+TCGA-62-A46P,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-97-A4M7,True,True,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-75-5122,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Dead,male
+TCGA-J2-A4AD,False,False,False,Current Smoker,,Dead,female
+TCGA-78-7156,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IV,Dead,male
+TCGA-50-5068,False,False,False,Not Reported,Stage IIB,Dead,female
+TCGA-97-7554,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,female
+TCGA-49-4488,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Dead,female
+TCGA-55-8507,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-95-7947,True,True,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Alive,male
+TCGA-78-8660,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-55-6971,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-49-4487,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IA,Dead,female
+TCGA-44-8120,False,False,False,"Current Reformed Smoker, Duration Not Specified",Stage IB,Alive,male
+TCGA-91-6829,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Dead,male
+TCGA-55-8092,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIB,Dead,male
+TCGA-55-7283,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIA,Alive,female
+TCGA-L9-A5IP,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IV,Dead,female
+TCGA-55-6968,False,False,False,Current Smoker,Stage IV,Dead,male
+TCGA-55-8615,True,False,True,Current Smoker,,Alive,male
+TCGA-97-A4M0,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,female
+TCGA-05-4403,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,male
+TCGA-55-8094,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Alive,male
+TCGA-91-6830,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,female
+TCGA-67-6217,True,True,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-95-7944,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-93-A4JQ,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,male
+TCGA-NJ-A4YI,True,False,True,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,female
+TCGA-49-4506,False,False,False,Current Smoker,Stage IIB,Dead,female
+TCGA-97-7547,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IB,Alive,female
+TCGA-49-AAQV,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-55-7573,False,False,False,Current Reformed Smoker for > 15 yrs,Stage IA,Alive,female
+TCGA-44-7667,False,False,False,Current Smoker,Stage IIB,Alive,female
+TCGA-L9-A743,False,False,False,Current Smoker,Stage IIA,Alive,male
+TCGA-05-4382,True,True,False,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-55-6969,False,False,False,Current Reformed Smoker for < or = 15 yrs,Stage IB,Alive,male
+TCGA-95-7039,True,True,True,Current Smoker,,Alive,female
+TCGA-MP-A4T9,True,True,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-55-6972,False,False,False,Current Smoker,Stage IB,Dead,male
+TCGA-L9-A50W,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIA,Dead,male
+TCGA-55-A491,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,female
+TCGA-55-8085,False,False,False,Current Smoker,Stage IA,Alive,male
+TCGA-99-AA5R,False,False,False,Current Smoker,Stage IA,Alive,female
+TCGA-75-5125,False,False,False,Current Reformed Smoker for > 15 yrs,,Dead,male
+TCGA-55-8513,False,False,False,Lifelong Non-Smoker,,Alive,female
+TCGA-05-5425,False,False,False,Current Reformed Smoker for > 15 yrs,,Alive,male
+TCGA-50-6597,False,False,False,Lifelong Non-Smoker,,Dead,female
+TCGA-38-7271,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,female
+TCGA-64-5774,True,False,True,Current Reformed Smoker for < or = 15 yrs,,Alive,male
+TCGA-49-AAR3,False,False,False,Unknown,,Alive,male
+TCGA-50-6595,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIIA,Dead,female
+TCGA-55-7910,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IIA,Alive,female
+TCGA-73-4670,True,False,True,Current Reformed Smoker for < or = 15 yrs,Stage IV,Alive,female
+TCGA-86-8671,False,False,False,Lifelong Non-Smoker,Stage IIB,Alive,female
+TCGA-78-7536,False,False,False,Current Reformed Smoker for < or = 15 yrs,,Dead,male
+TCGA-MP-A4SW,True,True,False,Current Reformed Smoker for > 15 yrs,Stage IIB,Dead,male
+TCGA-44-7662,False,False,False,Current Smoker,Stage IB,Alive,male
+TCGA-50-5049,False,False,False,Not Reported,,Alive,male
