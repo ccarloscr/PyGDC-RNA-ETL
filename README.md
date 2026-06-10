@@ -29,7 +29,7 @@ Compatible with any project hosted on the [GDC Data Portal](https://portal.gdc.c
 - **Environment**: HPC / Cloud for convenience and reliability as it may take a while if the number of files to download is high, speed is not dependant on computing power.
 - **Output**: raw .tsv count files.
 
-### [03_build_matrix.py](/scripts/03_build_matrix.py)
+### [03_build_count_matrix.py](/scripts/03_build_count_matrix.py)
 - **Function**: Merge individual count files into a single sample × gene matrix containing all RNA-seq raw counts.
 - **Environment**: Local.
 - **Output**: [sample_labels.csv](/Data/sample_labels.csv) and [sample_counts_matrix.parquet](/Data/sample_counts_matrix.parquet)
@@ -79,7 +79,7 @@ It is recommended to run this step in your remote environment. Transfer [cohort_
 #### Step 3 — Build Matrix
 Once downloads are complete, merge the files:
    ```bash
-   python 03_build_matrix.py
+   python 03_build_count_matrix.py
    ```
 
 ### Step 4 - Final output files
