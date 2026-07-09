@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![Data Source](https://img.shields.io/badge/Data-NCI%20GDC-0066cc?logo=data:image/svg+xml;base64,...) 
-![Open Access](https://img.shields.io/badge/GDC%20Access-Open--Access%20Only-brightgreen)
+![GDC API Mapping](https://img.shields.io/badge/GDC%20API%20Mapping-Tested%20(July%209%2C%202026)-brightgreen)
 
 **PyGDC-RNA-ETL** is a robust pipeline designed to automate the extraction, transformation, and integration of genomic data from the [GDC Data Portal](https://portal.gdc.cancer.gov).
 
